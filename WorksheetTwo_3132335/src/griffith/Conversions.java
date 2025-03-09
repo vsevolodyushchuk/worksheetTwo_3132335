@@ -16,10 +16,9 @@ public class Conversions {
 	    return Integer.parseInt(val);
 	}
 
-    public String integerToString(int val) {
-        // Method stub
-        return "";
-    }
+	public String integerToString(int val) {
+	    return String.valueOf(val);
+	}
 
     public String switchCase() {
         // Method stub
