@@ -39,7 +39,7 @@ class ConversionsTest {
 	    
 	    assertEquals("123", conversions.integerToString(123));
 	    assertEquals("-456", conversions.integerToString(-456));
-	    
+	    assertEquals("0", conversions.integerToString(0));
 	}
 
 }
