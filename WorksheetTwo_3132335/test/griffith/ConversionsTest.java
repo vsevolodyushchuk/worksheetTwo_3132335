@@ -29,6 +29,7 @@ class ConversionsTest {
 	    Conversions conversions = new Conversions();
 	    
 	    assertEquals(123, conversions.stringToInteger("123"));
+	    assertEquals(-456, conversions.stringToInteger("-456"));
 	    
 	}
 }
