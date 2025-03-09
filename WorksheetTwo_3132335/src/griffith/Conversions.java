@@ -7,10 +7,10 @@ public class Conversions {
 	}
 
 
-    public double dollarToEuro(double dollar) {
-        // Method stub
-        return 0.0;
-    }
+	public double dollarToEuro(double dollar) {
+	    return dollar * 0.91; // Assume conversion rate is 0.91
+	}
+
 
     public int stringToInteger(String val) {
         // Method stub
