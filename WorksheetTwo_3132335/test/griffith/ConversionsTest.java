@@ -23,5 +23,12 @@ class ConversionsTest {
 	    assertEquals(91.0, conversions.dollarToEuro(100), 0.01);
 	    assertEquals(0.0, conversions.dollarToEuro(0), 0.01);
 	}
-
+	
+	@Test
+	void testStringToInteger() {
+	    Conversions conversions = new Conversions();
+	    
+	    assertEquals(123, conversions.stringToInteger("123"));
+	    
+	}
 }
