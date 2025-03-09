@@ -47,6 +47,7 @@ class ConversionsTest {
 	    Conversions conversions = new Conversions();
 	    
 	    assertEquals("hELLO wORLD", conversions.switchCase("Hello World"));
+	    assertEquals("123", conversions.switchCase("123")); // Numbers should remain unchanged
 	    
 	}
 }
