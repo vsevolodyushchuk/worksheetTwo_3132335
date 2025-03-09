@@ -41,5 +41,12 @@ class ConversionsTest {
 	    assertEquals("-456", conversions.integerToString(-456));
 	    assertEquals("0", conversions.integerToString(0));
 	}
-
+	
+	@Test
+	void testSwitchCase() {
+	    Conversions conversions = new Conversions();
+	    
+	    assertEquals("hELLO wORLD", conversions.switchCase("Hello World"));
+	    
+	}
 }
