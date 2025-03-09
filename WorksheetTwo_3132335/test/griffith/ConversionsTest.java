@@ -48,6 +48,6 @@ class ConversionsTest {
 	    
 	    assertEquals("hELLO wORLD", conversions.switchCase("Hello World"));
 	    assertEquals("123", conversions.switchCase("123")); // Numbers should remain unchanged
-	    
+	    assertEquals("tEsT cAsE", conversions.switchCase("TeSt CaSe"));
 	}
 }
