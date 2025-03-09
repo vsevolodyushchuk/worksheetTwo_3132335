@@ -12,10 +12,9 @@ public class Conversions {
 	}
 
 
-    public int stringToInteger(String val) {
-        // Method stub
-        return 0;
-    }
+	public int stringToInteger(String val) {
+	    return Integer.parseInt(val);
+	}
 
     public String integerToString(int val) {
         // Method stub
