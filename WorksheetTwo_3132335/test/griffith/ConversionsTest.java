@@ -7,8 +7,12 @@ import org.junit.jupiter.api.Test;
 class ConversionsTest {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void testEuroToDollar() {
+	    Conversions conversions = new Conversions();
+	    
+	    assertEquals(1.10, conversions.euroToDollar(1), 0.01);
+	    
 	}
+
 
 }
