@@ -30,6 +30,6 @@ class ConversionsTest {
 	    
 	    assertEquals(123, conversions.stringToInteger("123"));
 	    assertEquals(-456, conversions.stringToInteger("-456"));
-	    
+	    assertThrows(NumberFormatException.class, () -> conversions.stringToInteger("abc"));
 	}
 }
