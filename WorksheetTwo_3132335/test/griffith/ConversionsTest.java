@@ -21,7 +21,7 @@ class ConversionsTest {
 	    
 	    assertEquals(0.91, conversions.dollarToEuro(1), 0.01);
 	    assertEquals(91.0, conversions.dollarToEuro(100), 0.01);
-	    
+	    assertEquals(0.0, conversions.dollarToEuro(0), 0.01);
 	}
 
 }
