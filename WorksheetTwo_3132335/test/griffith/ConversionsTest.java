@@ -32,4 +32,13 @@ class ConversionsTest {
 	    assertEquals(-456, conversions.stringToInteger("-456"));
 	    assertThrows(NumberFormatException.class, () -> conversions.stringToInteger("abc"));
 	}
+	
+	@Test
+	void testIntegerToString() {
+	    Conversions conversions = new Conversions();
+	    
+	    assertEquals("123", conversions.integerToString(123));
+	    
+	}
+
 }
